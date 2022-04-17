@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="F.ico" type="image/x-icon">
+    <title>Home | Portal Filmes</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav>
+            <img class="F-1"src="F.png"> 
+            <a href="#lancamento">lançamentos |</a>
+            <a href="#destaque">em destaque |</a>
+            <a href="#entrevista">entrevistas & making of |</a>	
+            <a href="#novidade">novidades</a>	
+
+            <img src="lupa.png">
+			<input type="text" class="pesquisar" placeholder="Pesquisar por filmes"> 
+        </nav>
+    </header>
+   
+    <main>
+        <section class="lancamentos">
+            <a name="lancamento"><h1 class="lancamentos__titulo">Lançamentos</h1></a>
+            <br>
+            <iframe class="vid-lancamentos" id="trailer" width="400" height="260" src="https://www.youtube.com/embed/QNKqTtc3MZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div>
+                <h2 class="lancamentos__h2-titulo">Doutor Estranho no Multiverso da Loucura</h2>
+                <br>
+                <p><b>Sinopse: </b>Em “Doutor Estranho no Multiverso da Loucura”, Benedict Cumberbatch retornará como Stephen Strange, e o elenco contará também com Elizabeth Olsen como Wanda Maximoff/Feiticeira Escarlate. O filme mostrará os desdobramentos de eventos que ocorrerão na série “WandaVision”, do Disney Plus, estrelada por Olsen e Paul Bettany, que interpreta o Visão. Benedict Wong e Chiwetel Ejiofor devem retornar como Wong e Karl Mordo, respectivamente, e Rachel McAdams irá retornar como Christine Palmer. Xochitl Gomez foi escalada para o elenco, e embora não haja confirmações sobre seu papel, especula-se que a atriz será a heroína America Chavez. Michael Waldron (“Rick & Morty”), que também está envolvido com a série “Loki”, é o roteirista. Sam Raimi (da trilogia “Homem-Aranha”) será o diretor, enquanto Scott Derrickson, responsável pelo primeiro filme, permanece como produtor executivo. “Doutor Estranho no Multiverso da Loucura” está programado para estrear no dia 5 de maio de 2022.</p>
+                <br>
+                <p><b>Diretor: </b>Sam Raimi</p>
+                <br>
+                <p><b>Roteiro: </b>Michael Waldron | Jade Bartlett</p>
+                <br>
+                <p><b>Estreia: </b>2022</p>
+                <br>
+                <p><b>Elenco: </b>Benedict Cumberbatch | Elizabeth Olsen | Xochitl Gomez | Patrick Stewart</p>
+                <br>
+                <p id="ava"><b>Avaliação: </b></p>
+                <img class="estrelas" src="estrelas.png">
+            </div>
+        </section>
+
+        <section class="destaque">
+            <a name="destaque"><h1 class="destaque__titulo">Em destaque</h1></a> 
+            
+            <fieldset>
+				<legend>Categoria</legend>
+				<select>
+                    <option>Todos</option>
+					<option>Aventura</option>
+					<option>Romance</option>
+					<option>Comédia</option>
+				</select>
+			</fieldset>
+            
+            <div>
+                <ul class="ul-filmes">
+                    <div class="filmes">
+                    <img id="f1" src="filme1.jpg">
+                    <img id="f2" src="filme2.jpg">
+                    <img id="f3" src="filme3.jpg">
+                    <img id="f4" src="filme4.jpg">
+                    </div>
+                </ul>
+                   
+                <button  class="btn-carregar">carregar mais filmes</button>
+            </div>
+            
+            <div class="avaliacoes">
+                <h1 class="avaliacao__titulo">Últimas avaliações</h1>
+                
+                <ul class="avaliacoes__lista">
+                    <li>  
+                        <img src="user.png">
+                        <h2>Roberto</h2>
+                        <p class="avaliacao">Adorei o filme, simplesmente incrível!</p>
+                        <img class="estrela__avaliacoes" src="estrelas.png"> 
+                        <p>12/03/2022</p>
+                    </li>
+                    
+                    <li>
+                        <img src="user.png">
+                        <h2>Maria</h2>
+                        <p class="avaliacao">Maravilhoso, apaixonada com o elenco. </p>
+                        <img class="estrela__avaliacoes" src="estrelas.png"> 
+                        <p>21/02/2022</p>
+                    </li>
+                    <br>
+                    <li>
+                        <img src="user.png">
+                        <h2>Sara</h2>
+                        <p class="avaliacao">Amei a história e sou muito fã do filme.</p>
+                        <img class="estrela__avaliacoes" src="estrelas.png"> 
+                        <p>15/04/2022</p>
+                    </li>
+                </ul>
+                <button  class="btn-avaliacoes">carregar mais avaliações</button>
+            </div>
+        </section>
+
+        <section  class="entrevistas">
+            <a name="entrevista"><h1 class="destaque__titulo">Entrevistas & Making of</h1></a>
+            
+            <ul class="entrevistas__lista">
+                <li class="entrevista">
+                    <iframe width="300" height="225" src="https://www.youtube.com/embed/6wo9DvrxxMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
+                    <h3>Filme:</h3> <p>Star Wars</p>
+                    <br>
+                    <p><b>Diretor: </b>Rian Johnson</p>
+                    <p><b>Roteiro: </b>Rian Johnson</p>
+                </li>
+                <li class="entrevista">
+                    <iframe width="300" height="225" src="https://www.youtube.com/embed/PnBZgxMd6wI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   
+                    <h3>Filme:</h3><p>Vingadores: Ultimato</p>
+                    <br>
+                    <p><b>Diretor: </b>Anthony Russo | Joe Russo</p>
+                    <p><b>Roteiro: </b>Stephen McFeely | Christopher Markus</p>
+                </li>
+                <li class="entrevista">
+                    <iframe width="300" height="225" src="https://www.youtube.com/embed/czCErkgABSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Filme:</h3><p>Aquaman</p>
+                    <br>
+                    <p ><b>Diretor: James Wan</b></p>
+                    <p><b>Roteiro: David Leslie Johnson | Paul Norris | Will Beall </b></p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="novidades__section">
+            <a name="novidade">
+            <h2 class="novidades__titulo">Novidades</h2></a>
+
+            <ul class="novidades__lista">
+                <li>
+                    <img class="novidades" src="novidade1.jpg">
+                    <h2>O Homem do Norte: Saiba tudo sobre o melhor filme já feito sobre os vikings</h3>
+                    <p>Seu estilo único chega agora aos filmes sobre vikings: O Homem do Norte é uma saga repleta de batalhas sangrentas e feiticeiros assustadores, mas traz também a complexidade de um drama de William Shakespeare – e isso não é apenas modo de dizer. O roteiro de Eggers, em parceria com o poeta e romancista islandês Sigurjón Birgir Sigurôsson, é uma adaptação livre da peça teatral Hamlet. Não foi à toa que o dramaturgo utilizou a expressão “há algo de podre no reino da Dinamarca”: sua obra é inspirada em uma lenda do livro A História dos Dinamarqueses, compilação organizada pelo escrivão Saxo Grammaticus no século 13. No filme, porém, o protagonista Amleth é um guerreiro bem mais sanguinário que o príncipe criado pelo bardo inglês. Ambos compartilham o mesmo desejo: vingar o assassinato do pai pelo tio, um usurpador do trono que toma a coroa para si.</p>
+                    <br>
+                    <p><b>Diretor:</b> Robert Eggers</p>
+                    <hr>
+                </li>
+                <li>
+                    <img class="novidades" src="novidade2.jpg">
+                    <h2>O filme do Hulk que vai te fazer chorar já está disponível no Amazon Prime Video</h3>
+                    <p>A franquia Vingadores não produz tipos de filmes que te fazem chorar, só se você for um daqueles que gritou no cinema com Ultimato (se a resposta é sim, nada de julgamentos, pois sou igual). Porém, parte de seu elenco já viveu por grandes paixões nos cinemas, emocionando até aqueles com corações de pedra. Nessa matéria especial do AdoroCinema, chegou a hora de celebrar um longa bem fofo do nosso eterno Hulk, Mark Ruffalo: E Se Fosse Verdade, que está disponível no catálogo do Amazon Prime Video. E acredite, eu já vi marmanjo grande se debulhar em lágrimas com essa obra!</p>
+                    <br>
+                    <p><b>Diretor:</b> Mark Waters</p>
+                    <hr>    
+                </li>
+                <li>
+                    <img class="novidades" src="novidade3.jpg">
+                    <h2>Explosão, fogo e mullets: O que você não sabia sobre Não Olhe Para Cima</h3>
+                    <p>Um dos filmes mais comentados de 2021, "Não Olhe Para Cima" chega bem à edição 94 do Oscar com quatro indicações da Academia: melhor filme, melhor roteiro original, melhor trilha sonora e melhor edição. Mas há mais história ainda nos bastidores do filme estrelado por Leonardo DiCaprio e Jennifer Lawrence, incluindo explosões "controladas" que não deram muito certo, dentes quebrado e até mullets (lembra do cabelo de Chitãozinho e Xororó nos anos 1990?)...</p>   
+                    <br>
+                    <p><b>Diretor:</b> Adam McKay</p>
+                    <hr>
+                </li>
+
+                <div class="sobre">
+                    <h2>Sobre</h2>
+                    <br>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+
+                <div class="editorial">
+                    <h2>Editorial</h2>
+                    <br>
+                    <ul>
+                        <li>
+                            <p><b>Redação:</b> Thiago Lacerda</p>
+                            <img src="user2.png">
+                        </li>
+
+                        <li>
+                            <p><b>Pesquisa:</b> Thiago Lacerda</p>
+                            <img src="user2.png">
+                        </li>
+
+                        <li>
+                            <p><b>Gerente geral:</b> Thiago Lacerda</p>
+                            <img src="user2.png">
+                        </li>
+                    </ul>
+
+                    <div class="redes-sociais">
+                        <h2>redes sociais</h2>
+                        <ul>
+                            <li>
+                                <img class ="img__redes" src="face.png">
+                            </li>
+
+                            <li>
+                                <img class ="img__redes" src="tt.png">
+                            </li>
+
+                            <li>
+                                <img class ="img__redes" src="insta.png">
+                            </li>
+                        </ul>
+                   </div>
+                </div>
+
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy; Copyright 2022 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC Minas</b></p>
+        <img class="F-2" src="F.png">	
+    </footer>
+</body>
+</html>
